@@ -1,6 +1,6 @@
 # Windows Care
 ## Description
-Windows Care Routine is a batch script designed to maintain the health and performance of Windows systems. By automating the upgrade of all installed programs, scanning and repairing Windows system files, and executing a disk check, this script simplifies routine maintenance tasks for users. It's aimed at individuals looking to streamline their PC maintenance with minimal effort.
+Windows Care is a batch script designed to maintain the health and performance of Windows systems. By automating the upgrade of all installed programs, scanning and repairing Windows system files, and executing a disk check, this script simplifies routine maintenance tasks for users. It's aimed at individuals looking to streamline their PC maintenance with minimal effort.
 ## Features
 - Automated Upgrade: Upgrades all installed programs to their latest versions using the Windows Package Manager (winget).
 - System File Checker: Scans for and repairs corrupted Windows system files (sfc -scannow).
@@ -10,12 +10,12 @@ Windows Care Routine is a batch script designed to maintain the health and perfo
 - Windows 10 or newer.
 - Windows Package Manager (winget) for upgrading programs. This should be pre-installed on Windows 10 version 1709 (Fall Creators Update) and later.
 ### Installing
-1. Download the WindowsCareRoutine.bat file from the GitHub repository.
+1. Download the windows-care.bat file from the GitHub repository.
 2. Save the file to a convenient location on your Windows system.
 ### Executing Program
-To run the Windows Care Routine:
+To run the Windows Care:
 
-1. Right-click on WindowsCareRoutine.bat.
+1. Right-click on windows-care.bat.
 2. Select "Run as administrator" to ensure the script can perform operations that require administrative privileges.
 3. Follow any on-screen prompts to complete the maintenance tasks.
 
@@ -31,7 +31,7 @@ Contributions are what make the open-source community such an amazing place to l
 5. Open a Pull Request
 
 ## License
-Distributed under the Apache v3 License. See LICENSE for more information.
+Distributed under the GNU General Public License v3.0. See LICENSE for more information.
 
 ## Contact
 Me: julien.halgand1@gmail.com
